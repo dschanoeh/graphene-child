@@ -12,14 +12,18 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 -------------------------------------------------------------- */
 
 @import url("../graphene/style.css");
+@import url("http://fonts.googleapis.com/css?family=EB+Garamond:regular");
 
 body {
-	background: url(images/back.jpg) repeat #000 fixed;
-    	font: 12px helvetica, arial;
+    background: url(images/back.jpg) repeat #000 fixed;
+    font-family: 'EB Garmond', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .wp-caption {
-	padding-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .entry-content,
@@ -28,96 +32,116 @@ body {
 .entry-content ul,
 .entry-content ol,
 .comment-entry ol {
-	color: #ffffff;
-	font: normal 12px Helvetica, arial, serif;
-	line-height: 20px;
+    color: #ffffff;
+    line-height: 20px;
+    font-family: 'EB Garmond', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #content {
-	background: #161616;
-	border-top: 21px solid #161616;
-	padding-bottom: 20px;
+    background: #161616;
+    border-top: 21px solid #161616;
+    padding-bottom: 20px;
 }
 
 .post {
-	background: #161616;
+    background: #161616;
 }
 
 #nav {
-	background: #161616;
-	border-bottom-width: 0px;
+    background: #161616;
+    border-bottom-width: 0px;
 }
 
 blockquote {
-	color:#bbb;
-	border: none;
-	border-left:5px solid #ccc;
-	margin:15px 30px 15px 10px;
-	padding-left:20px;
-	background: #161616;
+    border: none;
+    border-left:5px solid #ccc;
+    margin:15px 30px 15px 10px;
+    padding-left:20px;
+    background: #161616;
+}
+
+blockquote p {
+    color:#ccc;
 }
 
 /* post titles */
 h2,
 h2 a,
 h2 a:visited {
-	color: white;
-	font: 20px Georgia;
-
+    color: white;
+    font-family: 'EB Garmond', serif;
+    font-size: 20px;
 }
 
 /* calendar picture */
 .post .date {
-	background: url(images/sprite_master.png) -325px top no-repeat;
+    background: url(images/sprite_master.png) -325px top no-repeat;
 }
 
 /* picture frames */
 .entry-content .wp-caption {
-	background: #44444;
+    background: #44444;
 }
 .wp-caption-text {
-	color: #5e5e5e !important;
+    color: #5e5e5e !important;
 }
 
 .entry-content ul li {
-	list-style-image: url("images/list-style-image.png");
+    list-style-image: url("images/list-style-image.png");
 }
-
 
 /*links */
 a, a:visited {
-	color: #bbbbbb;
+    color: #bbbbbb;
 }
 
 a:hover {
-	color: white;
+    color: white;
 }
 
 /* links in content */
 .entry-content a {
-	border-bottom:1px dotted #000;
+    border-bottom:1px dotted #000;
 }
 
 /* comment links */
 #comments > h4 a, #comments > h4 a:visited {
-	color: white;
+    color: white;
 }
 
 #comments > h4.current a {
-	color: white;
+    color: white;
 }
 
 /* sidebar background */
 .sidebar div.sidebar-wrap {
-	background: #161616;
+    background: #161616;
 }
 
 /* sidebar headings */
 .sidebar h3 {
-	background: #bbbbbb;
+    background: #bbbbbb;
+    font-family: helvetica;
 }
 
-
 .child-page .post-title {
-	font-family: Georgia;
+    font-family: 'EB Garmond', serif;
+}
+
+/* navigation bar font */
+#nav .menu li a, #nav .menu li a:visited {
+    font-family: helvetica;
+}
+
+/* sidebar font */
+.sidebar, .sidebar p, .sidebar li {
+    font-family: helvetica;
+}
+
+/* comment link font */
+.comment-link a, .comment-link a:visited {
+    font-family: helvetica;
 }
