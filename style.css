@@ -12,19 +12,19 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 -------------------------------------------------------------- */
 
 @import url("../graphene/style.css");
-@import url("http://fonts.googleapis.com/css?family=EB+Garamond:regular");
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif")
 
 body {
-    background: url(images/back.jpg) repeat #000 fixed;
-    font-family: 'EB Garmond', serif;
-    font-size: 14px;
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
 }
 
-.wp-caption {
-    padding-bottom: 0px;
-}
+/* change background image */
+/*.bg-gradient {
+    background-image: url(./images/back.jpg);
+}*/
 
 .entry-content,
 .entry-content p,
@@ -32,10 +32,10 @@ body {
 .entry-content ul,
 .entry-content ol,
 .comment-entry ol {
-    color: #ffffff;
+    color: #999;
     line-height: 20px;
-    font-family: 'EB Garmond', serif;
-    font-size: 14px;
+    font-family: 'Droid Serif', serif;
+    font-size: 16px !important;
     font-style: normal;
     font-weight: 400;
 }
@@ -48,6 +48,33 @@ body {
 
 .post {
     background: #161616;
+    border: none;
+}
+
+.post-title , .post-title a, .post-title a:visited {
+    font-family: 'Droid Serif', serif;
+    font-size: 36px;
+    border: none;
+}
+
+/* remove category image */
+.post-meta ul {
+    background: none;
+}
+
+.post-meta {
+    color: #999;
+    font-family: 'Droid Serif', serif;
+    border: none !important;
+}
+
+/* calendar picture */
+.post .date {
+    background: url(images/sprite_master.png) -325px top no-repeat;
+}
+
+.entry-footer {
+    border: none;
 }
 
 #nav {
@@ -64,57 +91,45 @@ blockquote {
 }
 
 blockquote p {
-    color:#ccc;
+    color: #bbb !important;
+    font-style: italic !important;
 }
 
-/* post titles */
-h2,
-h2 a,
-h2 a:visited {
-    color: white;
-    font-family: 'EB Garmond', serif;
-    font-size: 20px;
-}
-
-/* calendar picture */
-.post .date {
-    background: url(images/sprite_master.png) -325px top no-repeat;
-}
 
 /* picture frames */
 .entry-content .wp-caption {
     background: #44444;
 }
 .wp-caption-text {
-    color: #5e5e5e !important;
+    color: white !important;
+}
+
+.wp-caption {
+    padding-bottom: 0px;
+    background-color: #666;
+    color: white !important;
 }
 
 .entry-content ul li {
     list-style-image: url("images/list-style-image.png");
 }
 
+.entry-content img {
+    border: none;
+}
+
 /*links */
 a, a:visited {
-    color: #bbbbbb;
+    color: #eee;
 }
 
 a:hover {
     color: white;
 }
 
-/* links in content */
-.entry-content a {
-    border-bottom:1px dotted #000;
-}
-
-/* comment links */
-#comments > h4 a, #comments > h4 a:visited {
-    color: white;
-}
-
-#comments > h4.current a {
-    color: white;
-}
+/*
+ * sidebar
+ */
 
 /* sidebar background */
 .sidebar div.sidebar-wrap {
@@ -123,25 +138,51 @@ a:hover {
 
 /* sidebar headings */
 .sidebar h3 {
-    background: #bbbbbb;
-    font-family: helvetica;
+    background: none;
+    background-color: #666;
+    border: none;
+    font-family: 'Droid Serif', serif;
 }
 
-.child-page .post-title {
-    font-family: 'EB Garmond', serif;
-}
 
-/* navigation bar font */
-#nav .menu li a, #nav .menu li a:visited {
-    font-family: helvetica;
+.sidebar div.sidebar-wrap {
+    border: none;
+    box-shadow: none;
 }
 
 /* sidebar font */
 .sidebar, .sidebar p, .sidebar li {
-    font-family: helvetica;
+    font-family: 'Droid Serif', serif;
 }
+
+#sidebar_bottom {
+    background-color: #161616;
+}
+
+
+/*
+ * comments
+ */
+
+/* comment links */
+#comments a {
+    color: black;
+}
+#commentform {
+    background-color: #e9ecf5;
+}
+
+#commentform a, #commentform a:visited, #commentform a:hover {
+    color: black;
+}
+
+/* navigation bar font */
+#nav .menu li a, #nav .menu li a:visited {
+    font-family: 'Droid Serif', serif;
+}
+
 
 /* comment link font */
 .comment-link a, .comment-link a:visited {
-    font-family: helvetica;
+    font-family: 'Droid Serif', serif;
 }
