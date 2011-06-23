@@ -14,9 +14,9 @@
  * @license
  * Dual licensed under the MIT and GPL licenses.
  */
+
 .syntaxhighlighter {
   background-color: #161616 !important;
-  font-family: terminus, monospace !important;
 }
 .syntaxhighlighter .line.alt1 {
   background-color: #161616 !important;

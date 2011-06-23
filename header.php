@@ -14,6 +14,7 @@ global $graphene_settings;
 <head profile="http://gmpg.org/xfn/11">
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
     <title><?php graphene_title(); ?></title>
+    <!--<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>-->
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> 
     <!--[if lte IE 6]>
         <style>#container{background:none !important;}</style>

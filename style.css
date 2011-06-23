@@ -12,13 +12,28 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 -------------------------------------------------------------- */
 
 @import url("../graphene/style.css");
-@import url("http://fonts.googleapis.com/css?family=Droid+Serif")
+
+@font-face {
+  font-family: 'Droid Serif';
+    src: url("../../../../font/DroidSerif.ttf");
+}
+@font-face {
+  font-family: 'Droid SerifItalic';
+    src: url("../../../../font/DroidSerif-Italic.ttf");
+}
+@font-face {
+  font-family: 'Droid SerifBold';
+    src: url("../../../../font/DroidSerif-Bold.ttf");
+}
+@font-face {
+  font-family: 'Terminus';
+    src: url("../../../../font/Terminus.ttf");
+}
 
 body {
     font-family: 'Droid Serif', serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
 }
 
 /* change background image */
@@ -33,11 +48,10 @@ body {
 .entry-content ol,
 .comment-entry ol {
     color: #999;
-    line-height: 20px;
-    font-family: 'Droid Serif', serif;
+    line-height: 26px;
+    font-family: 'Droid Serif', Georgia, serif;
     font-size: 16px !important;
     font-style: normal;
-    font-weight: 400;
 }
 
 #content {
@@ -52,7 +66,7 @@ body {
 }
 
 .post-title , .post-title a, .post-title a:visited {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', Georgia, serif;
     font-size: 36px;
     border: none;
 }
@@ -64,7 +78,7 @@ body {
 
 .post-meta {
     color: #999;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', Georgia, serif;
     border: none !important;
 }
 
@@ -141,7 +155,7 @@ a:hover {
     background: none;
     background-color: #666;
     border: none;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', Georgia, serif;
 }
 
 
@@ -152,7 +166,7 @@ a:hover {
 
 /* sidebar font */
 .sidebar, .sidebar p, .sidebar li {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', Georgia, serif;
 }
 
 #sidebar_bottom {
@@ -178,11 +192,11 @@ a:hover {
 
 /* navigation bar font */
 #nav .menu li a, #nav .menu li a:visited {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', Georgia, serif;
 }
 
 
 /* comment link font */
 .comment-link a, .comment-link a:visited {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', Georgia, serif;
 }
