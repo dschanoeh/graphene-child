@@ -200,3 +200,15 @@ a:hover {
 .comment-link a, .comment-link a:visited {
     font-family: 'Droid Serif', Georgia, serif;
 }
+
+::-moz-selection {
+    color: #161616;
+    background: #999;
+    text-decoration: underline;
+}
+
+::selection {
+    color: #161616;
+    background: #999;
+    text-decoration: underline;
+}
