@@ -96,6 +96,15 @@ body {
     border-bottom-width: 0px;
 }
 
+#footer {
+    background: #161616;
+    padding-top: 20px;
+}
+
+#copyright h3 {
+    font-family: 'Droid Serif', Georgia, serif;
+}
+
 blockquote {
     border: none;
     border-left:5px solid #ccc;
@@ -141,6 +150,12 @@ a:hover {
     color: white;
 }
 
+/* captions */
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .comment-entry h1, .comment-entry h2, .comment-entry h3, .comment-entry h4, .comment-entry h5, .comment-entry h6 {
+    font-family: 'Droid Serif', Georgia, serif;
+    color: #eee;
+}
+
 /*
  * sidebar
  */
@@ -173,21 +188,41 @@ a:hover {
     background-color: #161616;
 }
 
-
 /*
  * comments
  */
+
+#comments {
+    background-color: #eee;
+    margin-bottom: 0px;
+    font-family: 'Droid Serif', Georgia, serif;
+}
 
 /* comment links */
 #comments a {
     color: black;
 }
 #commentform {
-    background-color: #e9ecf5;
+    background-color: #eee;
+    color: 161616;
 }
 
 #commentform a, #commentform a:visited, #commentform a:hover {
     color: black;
+}
+
+#comments > h4, #respond > h3, h3.author-post-list, #comments p.commentmetadata, #comments li.comment .comment-wrap > h5, #comments li.pingback .comment-wrap > h5, #comments li.trackback .comment-wrap > h5, #comments p.comment-reply-link {
+    font-family: 'Droid Serif', Georgia, serif;
+}
+
+#comments .comment-entry p, #comments .comment-entry ul li, #comments .comment-entry ol li {
+    font-family: 'Droid Serif', Georgia, serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#comments ol li.comment.depth-1, #comments ol li.pingback.depth-1, #comments ol li.trackback.depth-1 {
+    background: #eee;
 }
 
 /* navigation bar font */
